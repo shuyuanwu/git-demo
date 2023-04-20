@@ -17,3 +17,12 @@ learning git
 ssh-keygen -t rsa -b 4096 -C "shuyuan.w@pku.edu.cn"
 eval “$(ssh-agent -s)” # mac用户
 ```
+
+- git push: push the local files to a remote repository where my project is host
+  - git push -u origin master/main (-u代表后面是default内容，以后就不用再输入), origin: local of our git repository; master: remote
+- git show-ref:确认是main or master
+- git log: 查看commit记录
+- git rebase -i (commit_id) : 回到commit, 修改commit状态
+- git branch: 查看分支
+- git checkout: switch between branches
+  - git checkout -b branch_name: create a new branch

@@ -51,4 +51,4 @@ eval “$(ssh-agent -s)” # mac用户需要对config做修改
   - git reset commit_id #  该commit的操作 unstaged
   - git reset --hard commit_id # remove 该commit的操作
 - git show-ref:确认是main or master
-- git rebase -i (commit_id): 回到commit, 修改commit状态
+- git rebase -i (commit_id): 回到commit, 修改commit状态 (该操作可以删除commits)

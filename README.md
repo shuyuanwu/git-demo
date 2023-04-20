@@ -28,7 +28,7 @@ eval “$(ssh-agent -s)” # mac用户
   - git checkout -b branch_name: create a new branch
 - git diff: shows what changes have been made, it compares two versions
   - git diff sy-test-branch (branch name)
-  - 
+- git push -u origin sy-test-branch #将分支内容push到remote,同时提交pull request
 
 ## Local Develop
 

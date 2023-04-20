@@ -45,8 +45,6 @@ eval “$(ssh-agent -s)” # mac用户需要对config做修改
 
 ## Undo
 
-## Local Development
-
 - git log # 查看全部commits记录,注意commit id
 - git reset # 撤回上一次add操作
   - git reset HEAD~1 # HEAD指commit, 1是上一次，撤回上一次commit操作

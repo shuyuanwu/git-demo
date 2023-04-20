@@ -29,3 +29,7 @@ eval “$(ssh-agent -s)” # mac用户
 - git diff: shows what changes have been made, it compares two versions
   - git diff sy-test-branch (branch name)
   - 
+
+## Local Develop
+
+1. add a new file, see branch.txt.

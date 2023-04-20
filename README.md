@@ -26,8 +26,6 @@ eval “$(ssh-agent -s)” # mac用户
 - git branch: 查看分支
 - git checkout: switch between branches
   - git checkout -b branch_name: create a new branch
-
-
-## Local Development
-
-1. open toyfile.html in your browser.
+- git diff: shows what changes have been made, it compares two versions
+  - git diff sy-test-branch (branch name)
+  - 

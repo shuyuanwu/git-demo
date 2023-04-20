@@ -29,6 +29,8 @@ eval “$(ssh-agent -s)” # mac用户
 - git diff: shows what changes have been made, it compares two versions
   - git diff sy-test-branch (branch name)
 - git push -u origin sy-test-branch #将分支内容push到remote,同时提交pull request
+- git pull # local 从remote中拉取
+  - git pull origin main
 
 ## Local Develop
 

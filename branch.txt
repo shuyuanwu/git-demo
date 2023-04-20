@@ -1,1 +1,4 @@
 This is an empty file.
+
+## Local Development
+1. Have fun

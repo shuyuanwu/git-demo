@@ -25,6 +25,8 @@ eval “$(ssh-agent -s)” # mac用户需要对config做修改
 
 2. 在github中的sshkey中输入rsa.pub中的内容
 
+详见[Generate new SSH key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+
 ## Push and Pull
 
 - git push: push the local files to a remote repository where my project is host
